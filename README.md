@@ -17,3 +17,6 @@ To do this, we will:
   
  We will be two doing this project: Robin GUEUX & Cyril TSO
 
+Project Check-in:
+
+- Tuesday 20/11: Created our cloud server with Terraform, pinged it with Ansible to check if it works (and it works!), starting to work on the Ansible's Playbook to deploy the WordPress
