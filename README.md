@@ -1,2 +1,8 @@
-# cloud_project
-this repository will contain all the codes for the project of Cloud &amp; Virtualization
+# Cloud & Virtualization project
+
+This repository will contain:
+ - all the codes of ansible
+ - all the codes of packers
+ - all the codes of terraform
+ 
+ 
