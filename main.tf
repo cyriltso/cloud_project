@@ -4,7 +4,7 @@ provider "scaleway" {
 
 data "scaleway_image" "project-server" {
   architecture = "x86_64"
-  name = "Ubuntu Bionic"
+  name = "Ubuntu Xenial"
 }
 
 resource "scaleway_server" "project-server" {
