@@ -1,0 +1,17 @@
+---
+- name: updates apt cache
+  apt:
+    update_cache: true
+
+- name: install necessary packages
+  apt:        
+   pkg:
+    - apache2
+    - mysql-server
+    - php7.0-mysql
+    - php7.0
+    - libapache2-mod-php7.0
+    - php7.0-mcrypt
+    - python-mysqldb
+   state: latest
+

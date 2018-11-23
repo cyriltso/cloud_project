@@ -1,0 +1,8 @@
+---
+ - name: Installs php extensions
+   apt:
+    pkg:
+     - php7.0-gd
+     - php-ssh2
+
+

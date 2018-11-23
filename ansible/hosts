@@ -1,2 +1,2 @@
-[web]
+[wordpress]
 host.example.org ansible_host=212.47.254.35 ansible_user=root
