@@ -20,3 +20,5 @@ To do this, we will:
 Project Check-in:
 
 - Tuesday 20/11: Created our cloud server with Terraform, pinged it with Ansible to check if it works (and it works!), starting to work on the Ansible's Playbook to deploy the WordPress
+
+- Friday-Sunday 23-25/11: Created the content to deploy (WordPress) to make some tests with the Ansible Playbook, strongly inspired from this tutorial: https://www.digitalocean.com/community/tutorials/how-to-automate-installing-wordpress-on-ubuntu-14-04-using-ansible
