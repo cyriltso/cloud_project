@@ -1,0 +1,28 @@
+{
+  "variables": {
+    "api_access_key": "",
+    "api_token": ""
+  },
+  "builders": [
+    {
+      "api_access_key": "{{ user `api_access_key` }}",
+      "api_token": "{{ user `api_token` }}",
+      "server_name": "project-server",
+      "image_name": " project-server-image",
+      "snapshot_name": " project-server-snapshot",
+      "type": "scaleway",
+      "image": "dec0cdd6-3ef5-47cf-a777-54a21f732b02",
+      "region": "par1",
+      "commercial_type": "START1-S",
+      "ssh_private_key_file": "/Users/cyriltso/.ssh/id_rsa",
+      "ssh_username": "root"
+    }
+  ],
+  "provisioners": [
+    {
+      "type": "ansible",
+      "playbook_file": "apache.yml",
+      "host_alias": "wordpress"
+    }
+  ]
+}
