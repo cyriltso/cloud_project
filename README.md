@@ -44,3 +44,8 @@ To do this, we will:
 
 - cd cloud-project/ansible/ (as the playbook apache.yml is located in the file "Ansible")
 - packer build -var "api_access_key=$SCW_ACCESS_KEY" -var "api_token=$SCW_SECRET_KEY" image-wordpress.json
+
+## Final Step
+
+Then, to test the image to deploy the content, you can just create a new server deployed with the image created by Packer.
+After doing this manipulation, you can type on the browser the IP address of the created server uploaded with the image and the setup page of WordPress will appear and you will be able to configure it as you wish.
