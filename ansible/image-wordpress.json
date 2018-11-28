@@ -2,6 +2,7 @@
   "variables": {
     "api_access_key": "",
     "api_token": ""
+    "user": "",
   },
   "builders": [
     {
@@ -15,7 +16,7 @@
       "image": "b5a754d1-8262-47d2-acb2-22739295bb68",
       "region": "par1",
       "commercial_type": "START1-S",
-      "ssh_private_key_file": "/Users/cyriltso/.ssh/id_rsa",
+      "ssh_private_key_file": "/Users/user/.ssh/id_rsa",
       "ssh_username": "root"
     }
   ],
